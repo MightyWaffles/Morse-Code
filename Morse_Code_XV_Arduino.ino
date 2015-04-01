@@ -1,3 +1,5 @@
+//By: Sam and John\\
+
 #include <morse.h>
 
 morse DoStuff;
