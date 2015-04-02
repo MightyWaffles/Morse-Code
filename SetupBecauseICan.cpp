@@ -32,4 +32,10 @@ void morse::AndStuff(int TheNewPin)
 	}	
 
 	CheckLetters(_Wordstring);
+	
+	while(!Serial.available())
+	{
+		delay(10);
+	}
+
 }
